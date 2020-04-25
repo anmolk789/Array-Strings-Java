@@ -1,0 +1,31 @@
+Array square
+
+An array of N integers is passed as input to the program. The program must print another array where value at each index will be the sum of the square of all the values in the input array except the value at that index in the input array.
+
+[Input format: First input refers to the no of elements in the array and the next is the series of elements in the array]
+
+Sample Input1:
+
+5
+
+1
+
+2
+
+3
+
+4
+
+5
+
+Sample Output1:
+
+54
+
+51
+
+46
+
+39
+
+30
