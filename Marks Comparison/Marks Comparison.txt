@@ -1,0 +1,119 @@
+Mark Comparison
+Joe and her friend got their marks for the IV semester. They were comparing the common scores which they have got.
+
+Write a java program to find the common scores between two arrays and display the position of the matching scores from the first and second array.
+
+If array size is not matching then display "Invalid array size".
+
+If no elements are matching then display "No matching scores".
+
+If any of the elements are negative then display "No Negative Elements".
+
+
+
+Input and output format:
+
+The first input corresponds to the size of the first array
+
+The second input set corresponds to the elements of the first array
+
+The third input corresponds to the size of the second array
+
+The fourth input set corresponds to the elements of the second array
+
+Sample Input1:
+
+4
+
+96
+
+55
+
+88
+
+77
+
+4
+
+55
+
+96
+
+44
+
+66
+
+Sample Output1:
+
+(1,2)(2,1)
+
+
+Sample Input2:
+
+4
+
+43
+
+54
+
+67
+
+23
+
+5
+
+Sample Output2:
+
+Invalid array size
+
+
+
+Sample Input3:
+
+4
+
+96
+
+55
+
+88
+
+77
+
+4
+
+53
+
+67
+
+44
+
+66
+
+Sample Output3:
+No matching scores
+
+
+
+Sample Input4:
+
+4
+
+1
+
+2
+
+3
+
+4
+
+4
+
+34
+
+-1
+
+Sample Output4:
+
+No Negative Elements
+
