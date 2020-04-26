@@ -1,0 +1,15 @@
+Login
+
+
+Write a program to check whether the user is an authorized user or not. Create a class Login with the private attributes userName and password,write a method public boolean validate() in the Login class, this method should check whether the given userName is john and the password is 123abc in that case return true else return false. Print "Valid user" or "Invalid user" based on the value returned from validate method. 
+Note: Write a constructor in the Login to set userName and password. Include appropriate getter method
+
+Sample Input 1:
+Enter the username:
+john
+Enter the password:
+
+123abc
+
+Sample Output 1:
+Valid user
