@@ -1,0 +1,72 @@
+Mail Domain
+ZeeZee Company provides an official id to its employees once they complete the pre-onboarding training. During the training, the zeezee company needs to send a mail to their personal ids. The company wants to send a mail to all the trainees. Help the company to find out the trainee’s personal mail id.
+
+The employee’s official mail id will be employeename@zeezee.com. Find the mail domains apart from zeezee.com
+
+[First input is the number of mail ids, the next inputs is the mail id]
+
+Sample Input1:
+
+5
+
+suvi@gmail.com
+
+vivek@zeezee.com
+
+john@yahoo.com
+
+prem@zeezee.com
+
+johan@gmail.com
+
+Sample Output1:
+
+suvi@gmail.com
+
+john@yahoo.com
+
+johan@gmail.com
+
+Sample Input2:
+
+5
+
+suvi@gmail.com
+
+vivek@gmail.com
+
+john@yahoo.com
+
+prem@yahoo.com
+
+johan@gmail.com
+
+Sample Output2:
+
+suvi@gmail.com
+
+vivek@gmail.com
+
+john@yahoo.com
+
+prem@yahoo.com
+
+johan@gmail.com
+
+Sample Input2:
+
+5
+
+femina@zeezee.com
+
+jaya@zeezee.com
+
+sri@zeezee.com
+
+banu@zeezee.com
+
+vijila@zeezee.com
+
+Sample Input2:
+
+No personal mail id
