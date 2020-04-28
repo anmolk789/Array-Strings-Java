@@ -1,0 +1,21 @@
+Print the characters in descending order
+Write a program to get the String an input from the user and display the alphabets in the String in descending order (Assume all the characters are given in lower case).
+
+Note : In the String “programming” the characters m or r or g is repeated
+
+Sample Input 1:
+
+love
+
+Sample Output 1:
+
+vole
+
+Sample Input 2:
+
+programming
+
+Sample Output 2:
+
+rponmiga
+
