@@ -1,0 +1,30 @@
+Ascending and descending order
+Write a program to get the string as input from the user and remove the duplicates. Then, sort the first half of the string in the descending order and the second half in the ascending order. If the String length is 7 consider the first 4 as the first half and next 3 as the second half.
+
+Assumption:  Only lowercase characters are allowed
+
+Sample Input 1:
+
+programming
+
+Sample Output 1:
+
+rpogaimn
+
+Explanation:
+
+1. programming -> progamin(After removing duplicates)
+
+2. prog/amin ->rpog(Descending pattern) aimn(Ascending pattern)
+
+3. 'rpogaimn' is the output for 'programming'
+
+
+
+Sample Input 2:
+
+cake
+
+Sample Output 2:
+
+caek
