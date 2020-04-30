@@ -48,19 +48,6 @@ public class Main{
         for(int i=0;i<res2.length;i++){
             last=last+res2[i];
         }
-        System.out.println(first+last);
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
+        System.out.println(first+last);    
     } 
 }
