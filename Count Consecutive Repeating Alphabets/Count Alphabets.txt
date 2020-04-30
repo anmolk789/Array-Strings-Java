@@ -1,0 +1,28 @@
+Count consecutive repeating characters
+Write a program to count the consecutive repeating characters.
+
+Sample Input1:
+
+aaabbcbbbb
+
+Sample Output1:
+
+a3b2c1b4
+
+Sample Input2:
+
+aaaabbcbbbb
+
+Sample Output2:
+
+a4b2c1b4
+
+
+Sample Input3:
+
+ascbnt
+
+Sample Output2:
+
+ascbnt
+
