@@ -1,0 +1,73 @@
+Zig zag Array
+Write a program to arrange the elements in the array so that it satisfies the below condition.
+
+a<b>c<d>e<f…….
+
+[Input format: The First input refers to the no of elements in the array and the next is the series of elements in the array]
+
+Sample Input 1:
+
+6
+
+1
+
+2
+
+3
+
+4
+
+5
+
+6
+
+Sample Output 1:
+
+1
+
+3
+
+2
+
+5
+
+4
+
+6
+
+
+
+Sample Input 2:
+
+7
+
+14
+
+7
+
+1
+
+3
+
+2
+
+6
+
+4
+
+Sample Output 2:
+
+7
+
+14
+
+1
+
+3
+
+2
+
+6
+
+4
+
