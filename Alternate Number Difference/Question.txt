@@ -1,0 +1,48 @@
+Alternate Numbers Difference
+Write a java program to read an array of integer elements. The program should find the difference between the alternate numbers in the array and find the index position of the smallest element with largest difference. If more than one pair has the same largest difference consider the first occurrence.
+
+If the array size is less than 3,Display “Invalid array size”.
+
+Sample Input1:
+
+6
+
+4
+
+3
+
+2
+
+10
+
+8
+
+6
+
+Sample Output1:
+
+1
+
+
+
+Sample Input2:
+
+7
+
+7
+
+6
+
+2
+
+2
+
+3
+
+1
+
+8
+
+Sample Output2:
+
+2
