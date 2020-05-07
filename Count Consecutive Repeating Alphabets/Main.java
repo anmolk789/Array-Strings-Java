@@ -1,57 +1,29 @@
 import java.util.Scanner;
-class Main{
-    public static void main (String[] args) 
-    {
-        Scanner sc=new Scanner(System.in);
-
-        String s=sc.nextLine();
-        String nw="";
-        for(int i=0;i<s.length();i++)
-        {
-            char ch=s.charAt(i);
-            if(ch!=' ')
-            nw=nw+ch;
-            s=s.replace(ch,' ');
-            
-        }
-        int l=nw.length();
-        char temp;
-        char[] arr=nw.toCharArray();
-        int n;
-        if(l%2==0){
-            n=l/2;
-        }
-        else{
-            n=(l+1)/2;
-        }
-        for(int k=0;k<l;k++)
-        {
-            if(k<n)
-            {
-                for(int j=0;j<n;j++)
-                {
-                    if(arr[k]>arr[j])//for descending order
-                    {
-                        temp=arr[k];
-                        arr[k]=arr[j];
-                        arr[j]=temp;
-                    }
-                    
-                }
+import java.util.Arrays;
+public class Main{
+    public static void main (String[] args) {
+        String s;
+        Scanner obj=new Scanner(System.in);
+        s=obj.nextLine();
+        int index=0;int i=0;
+        char ch[]=s.toCharArray();
+        while(i<ch.length){
+            int j=i;
+            while(j<ch.length && ch[j]==ch[i]){
+                j++;
             }
-            else{
-                for(int j=n;j<l;j++)
-                {
-                    if(arr[k]<arr[j])
-                    {
-                        temp=arr[k];
-                        arr[k]=arr[j];
-                        arr[j]=temp;
-                    }
+            ch[index++]=ch[i];
+            if(j-i>1){
+                String res=j-i+"";
+                for(char c:res.toCharArray()){
+                    ch[index++]=c;
                 }
-            }
-        }
-        
-        System.out.println(arr);
+            }        
+        i=j;
     }
-}
+    String output="";
+    for(int k=0;k<index;k++){
+        output=output+ch[k];
+    }
+    System.out.println(output);
+}}
