@@ -1,0 +1,29 @@
+Count repeating words
+
+In a given sentence, find the maximum repeated word and print the same.(Assume that all the characters are in lower case)
+
+Sample Input1:
+
+java is programming language and an object oriented language
+
+Sample Output1:
+
+language
+
+Sample Input2:
+
+suvi felt happy because suvi saw that the others were happy
+
+Sample Output2:
+
+suvi
+
+happy
+
+Sample Input2:
+
+he went out yesterday
+
+Sample Output2:
+
+No repetition of words
