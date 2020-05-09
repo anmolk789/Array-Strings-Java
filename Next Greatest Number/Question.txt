@@ -1,0 +1,31 @@
+Next Greatest number
+Write a program to find the next greatest number that can be formed using the digits in the given input number.
+
+
+
+If the given number cannot generate the next greatest number then print the input number itself
+
+
+Sample Input1:
+
+23
+
+Sample Output1:
+
+32
+
+Sample Input2:
+
+123
+
+Sample Output2:
+
+132
+
+Sample Input3:
+
+6251
+
+Sample Output3:
+
+6512
